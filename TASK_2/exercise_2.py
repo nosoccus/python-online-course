@@ -5,6 +5,6 @@ def change_positions(players: list):
 
 if __name__ == "__main__":
     change_positions(
-    players = ['Ashleigh Barty', 'Simona Halep', 'Naomi Osaka', 'Karolina Pliskova', 'Elina Svitolina']
-    )
-    
+        players=['Ashleigh Barty', 'Simona Halep', 'Naomi Osaka',
+                 'Karolina Pliskova', 'Elina Svitolina']
+        )

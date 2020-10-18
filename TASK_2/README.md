@@ -1,6 +1,8 @@
 # TASK 2
 > This assignment consists of three exercises. They check the knowledge of basic data types and their functions.
 
+👍 All exercises are done and checked for PEP-8.
+
 - ## [Exercise 1:](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_2/exercise_1.py)
 ### Requirements:
   * ✔️ Return the count of negative numbers in next list [4, -9, 8, -11, 8].

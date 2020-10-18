@@ -4,5 +4,6 @@ def count_negatives(numbers: list) -> int:
 
 
 if __name__ == "__main__":
-    input_numbers = [4, -9, 8, -11, 8]
-    print(f"There are {count_negatives(input_numbers)} negative numbers in the list {input_numbers}")
+    input_numbers = [4, - 9, 8, - 11, 8]
+    print(f"There are {count_negatives(input_numbers)} "
+          f"negative numbers in the list {input_numbers}")

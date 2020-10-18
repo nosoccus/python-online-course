@@ -3,5 +3,8 @@ def swap_words(auf: str):
 
 
 if __name__ == "__main__":
-    swap_words("The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself."
-    )
+    swap_words(
+        "The reasonable man adapts himself to the world; "
+        "the unreasonable one persists in trying "
+        "to adapt the world to himself."
+     )
