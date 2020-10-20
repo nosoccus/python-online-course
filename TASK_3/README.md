@@ -7,7 +7,7 @@
 ### Requirements:
   * ✔️ Write the program that determines whether Point A(x, y) is in the shaded area or not.
 
-![alt-text](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_3/plot.png "Shaded area")
+![alt-text](TASK_3/plot.png "Shaded area")
 
 - ## [Exercise 2 - "FizzBuzz":](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_3/fizzbuzz1.py)
 ### Requirements:
