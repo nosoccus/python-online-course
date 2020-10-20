@@ -9,10 +9,16 @@
 
 ![alt-text](TASK_3/plot.png "Shaded area")
 
-- ## [Exercise 2 - "FizzBuzz":](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_3/fizzbuzz1.py)
+
+> In this exercise is only needed to write conditionals for ```x``` and ```y``` parameters, where ```-1 <= x <= 1``` and ```0 <= y <= 1```
+
+
+- ## Exercise 2 - "FizzBuzz": [First Version](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_3/fizzbuzz1.py) / [Second Version](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_3/fizzbuzz2.py)
 ### Requirements:
   * ✔️ Write a program that prints the input number from 1 to 100. But for a multiple of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print "FizzBuzz".
 
+
+ > In this task I decided to use string concatenation to avoid one excessive ```if``` statement for ```"FizzBuzz"```. Also, I made a second version of the task with ```ternary operators``` to reduce the number of strings.
 
 - ## [Exercise 3 - "Baccarat":](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_3/baccarat1.py)
 ### Requirements:
@@ -24,3 +30,6 @@
        * Aces are worth 1 point.
    * Sum the values of cards. If the total is more than 9 reduce 10 from the result. E.g. 5 + 9 = 14, 14 - 10 = 4, 4 is the result.
    * The player is not allowed to play other cards like the Joker.
+
+
+> In the first version of this exercise I used the provided skeleton. I created the list of values of each card and check the value of the card by index.
