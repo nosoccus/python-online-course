@@ -7,4 +7,5 @@
 - [✔️ Task 4](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_4). Exercises on knowledge of loops.
 - [✔️ Task 5](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_5). Exercises on knowledge of functions.
 - [✔️ Task 6](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_6). Exercises on knowledge of data structures.
+- [✔️ Task 7](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_7). Exercises on knowledge of classes.
 > List of task list will grow with time...
