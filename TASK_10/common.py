@@ -1,9 +1,11 @@
 from collections import Counter
+import string
 
 
 def most_common_words(filename, num_words):
-    with open(filename) as fin:
-        cnt = Counter(fin.read().strip().split())
+    with open(filename) as rf:
+        cnt = Counter(rf.read().lower().translate(
+            str.maketrans('', '', string.punctuation)).strip().split())
     return cnt.most_common(num_words)
 
 
