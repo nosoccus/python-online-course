@@ -16,6 +16,7 @@
   Xavier
   ```  
 
+  > In first task I read a file into list, sorted it and then writed it into the file.
 
 
 ## [Exercise 2](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_10/common.py):
@@ -31,12 +32,12 @@
   print(most_common_words('lorem_ipsum.txt'))
   >>> ['donec', 'etiam', 'aliquam']
   ```
-
-
+  
+  > In second task I decided to use ```Counter``` from ```collections``` lib.
 
 ## [Exercise 3](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_10/students.py):
 
-File `data/students.csv` stores information about students in CSV](https://en.wikipedia.org/wiki/Comma separated_values) format. This file contains the student’s names, age and average mark.
+File `data/students.csv` stores information about students in [CSV](https://en.wikipedia.org/wiki/Comma separated_values) format. This file contains the student’s names, age and average mark.
   ### Requirements:
   *  Implement a function which receives file path and returns names of top performer students.
 
@@ -59,3 +60,4 @@ File `data/students.csv` stores information about students in CSV](https://en.wi
   Lindsey Cummings,18,6.88
   Raymond Soileau,18,7.27
   ```  
+  > In third task I decided to use ```pandas``` lib because it has the best function to operate with CSV files.
