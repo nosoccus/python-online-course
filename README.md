@@ -1,4 +1,5 @@
 # This is the repo for tasks from Epam Python Course 2020
+> Author: Rostyslav Holoven
 
 ## List of tasks:
 - ### [✔️ Task 1](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_1)
@@ -17,8 +18,10 @@
    - ##### Exercises on knowledge of classes.
 - ### [✔️ Task 8](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_8)
    - ##### Exercises on knowledge of exceptions and errors.
-- ### [✔️ Task 9](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_8)
+- ### [✔️ Task 9](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_9)
    - ##### Exercises on knowledge string methods.
-- ### [✔️ Task 10](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_8)
+- ### [✔️ Task 10](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_10)
    - ##### Exercises on knowledge of file operations.
+- ### [✔️ Task 11](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_11)
+   - ##### Exercises on knowledge of modules and decorators.
 > The list of tasks will grow with a time...
