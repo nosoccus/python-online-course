@@ -10,7 +10,7 @@
 
 > The condition is inaccurate in this exercise, so there are many ways to interpret and solve it.
 
-**Note**: detail explanation in the link to the exercise.
+**Note**: detail [_explanation_](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/legb/README.md) in the link to the exercise.
 
 ## [Exercise 2](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/remember_last.py):
   ### Requirements:
@@ -70,6 +70,8 @@
 
 ## [Exercise 4](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/modules):
   ### Implement a brunch of functions which receive a changeable number of strings and return next parameters:
-  * Run the module ```[modules/mod_a.py](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/modules/mod_a.py)```. Check its result. Explain why does this happen.
+  * Run the module [modules/mod_a.py](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/modules/mod_a.py . Check its result. Explain why does this happen.
   * Try to change ```x``` to a list ```[1,2,3]```. Explain the result.
   * Try to change ```import``` to ```from x import *``` where ```x``` - module names. Explain the result.
+
+**Note**: detail [_explanation_](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/modules/README.md) in the link to the exercise.
