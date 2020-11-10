@@ -1,11 +1,10 @@
-allow = True
-res = 0
-
-
 def call_once(func):
+    allow = True
+    res = 0
+
     def wrapper(*args, **kwargs):
-        global allow
-        global res
+        nonlocal allow
+        nonlocal res
         if allow:
             res = func(*args, **kwargs)
             allow = False

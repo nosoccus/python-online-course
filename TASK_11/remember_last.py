@@ -1,15 +1,15 @@
-i = 0
-res_list = [None]
-
-
 def remember_result(func):
+    i = 0
+    res_list = [None]
+
     def wrapper(*args, **kwargs):
-        global res_list
-        global i
+        nonlocal res_list
+        nonlocal i
         print(f"Last result = '{res_list[i]}'")
         curr = func(*args, **kwargs)
         res_list.append(curr)
         i += 1
+        return " "
     return wrapper
 
 
