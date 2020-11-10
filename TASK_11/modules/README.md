@@ -1,5 +1,5 @@
 ### Exercise 4:
-* Run the module ```[modules/mod_a.py](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/modules/mod_a.py)```.
+* Run the module [modules/mod_a.py](https://gitlab.com/nosoccus/python-online-course-epam/-/blob/master/TASK_11/modules/mod_a.py).
   * Firstly, we ```import mod_c``` module that contains assignment of ```x=5``` variable.
   * Secondly, we ```import mod_b```module that contains the redefiniton of x variable, but value will be the same.
   * So, when we ```print(mod_c.x)``` we will get the value from ```mod_b```.
