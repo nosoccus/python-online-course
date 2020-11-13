@@ -117,32 +117,47 @@ Previously, I have installed WSL2 and setup Ubuntu 20.04 for it. So there is the
 ## Exercise 2:
 * **2A**. Discovering soft and hard links. Comment on results of these commands (place the output into your report):
   * #### ```cd```
-  * #### ```mkdirtest```
+  > return to parent directory
+  * #### ```mkdir test```
+  > make directory ```test``
   * #### ```cd test```
-      
+  > change directory to ```test```
+
   ![alt-text](TASK_12/img/2a_1.png)
   * #### ```touch test1.txt```
+  > create file ```test1.txt```
   * #### ```echo “test1.txt” > test1.txt```
+  > writes "test1.txt" to ```test1.txt```
   * #### ```ls -l``` // a hard link
-        
+  > checks files in directory in long format
+
   ![alt-text](TASK_12/img/2a_2.png)
   * #### ```ln test1.txt test2.txt```
+  > creates a hard link ```test2.txt``` to the file ```test1.txt```
   * #### ```ls -l``` // pay attention to the number of links to test1.txt and test2.txt
+  > checks files in directory in long format
         
   ![alt-text](TASK_12/img/2a_3.png)
   * #### ```echo “test2.txt” > test2.txt```
+  > writes "test2.txt" to ```test2.txt```
   * #### ```cat test1.txt test2.txt```
-        
+  > catenate two files
+
   ![alt-text](TASK_12/img/2a_4.png)
   * #### ```rm test1.txt```
+  > remove ```test1.txt``` file
   * #### ```ls -l``` // now a softlink
-        
+  > checks files in directory in long format. There is only ```test2.txt```.
+
   ![alt-text](TASK_12/img/2a_5.png)
   * #### ```ln -s test2.txt test3.txt```
+  > creates soft link ```text3.txt``` to the ```text2.txt```.
   * #### ```ls -l``` // pay attention to the number of links to the created files
-        
+  > There are two files: ```text2.txt``` and ```text3.txt```, where ```text3.txt``` is a soft link to the ```test2.txt```.
+
   ![alt-text](TASK_12/img/2a_6.png)
   * #### ```rm test2.txt;ls -l```
+  > removes the file ```test2.txt``` and lists only ```test3.txt```.
         
   ![alt-text](TASK_12/img/2a_7.png)
 * **2B**. Dealing with ```chmod```.
