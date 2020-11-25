@@ -24,4 +24,5 @@
    - ##### Exercises on knowledge of file operations.
 - ### [✔️ Task 11](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_11)
    - ##### Exercises on knowledge of modules and decorators.
-> The list of tasks will grow with a time...
+- ### [✔️ Task 12](https://gitlab.com/nosoccus/python-online-course-epam/-/tree/master/TASK_12)
+   - ##### Exercises on knowledge of Linux Bash.
